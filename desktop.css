@@ -1,0 +1,35 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(241, 100%, 89%);
+}
+
+html{
+    font-size: 15px;
+}
+
+.container{
+    display: flex;
+    height: fit-content;
+    border-radius: 1.5rem;
+}
+
+.result{
+    width: 380px;
+    border-radius: 1.5rem;
+    padding: 30px;
+}
+
+.summary{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.result__circle{
+    width: 170px;
+}
+
